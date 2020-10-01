@@ -1,5 +1,5 @@
 var smtp_host = 'smtp.office365.com';
-var smtp_username = 'JohnAdams@BoydCat.com';
+var smtp_username = 'marc.declercq@edu.vlerick.com';
 
 //Enter were logs will go here
 var log_email = ''
